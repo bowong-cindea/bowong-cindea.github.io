@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+    position: absolute !important;
+    width: 100%;
+    background-color: rgb(51, 70, 48);
+    z-index: 1;
+}
+
+.dropdown-menu {
+    background-color: rgb(51, 70, 48) !important;
+    padding: 2px !important;
+    border-color: rgba(255, 255, 255, 0.342) !important;
+}
+
+@media (min-width: 992px){
+    .data-penduduk{
+        transform: translate(-10%, 0);
+    }
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:visited {
+    background-color: rgba(255, 255, 255, 0.308) !important;
+}
+
+main{
+    background-color: rgba(51, 70, 48, 0.925);
+    color: white;
+    padding-top: 130px !important;
+    padding-bottom: 40px !important;
+}
+
+@media (max-width: 605px) {
+    main {
+        padding-top: 120px !important;
+    }
+
+    main h1{
+        font-size: 1.7rem;
+    }
+
+    main .fs-2{
+        font-size: 1.3rem !important;
+    }
+
+    .letak-desa {
+        font-size: 0.9rem;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 575px) {
+    main {
+        padding-top: 100px !important;
+    }
+}
+
+@media (max-width: 449px) {
+    main {
+        padding-top: 95px !important;
+    }
+
+    main h1{
+        font-size: 1.6rem;
+    }
+
+    main .fs-2{
+        font-size: 1.2rem !important;
+    }
+
+    .letak-desa {
+        font-size: 0.7rem;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 1.1rem;
+    }
+}
+
+footer{
+    background-color: rgb(51, 70, 48);
+}
