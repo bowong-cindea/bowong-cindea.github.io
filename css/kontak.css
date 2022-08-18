@@ -34,18 +34,10 @@ nav {
     background-color: rgba(255, 255, 255, 0.308) !important;
 }
 
-img{
-    float: left;  
-}
-
 /* #container{
     display: flex;
     align-items: center;
 } */
-
-#container img{ 
-    margin-right: 10px;
-}
 
 main{
     background-color: rgba(51, 70, 48, 0.925);
@@ -102,6 +94,15 @@ main{
     .navbar-toggler-icon {
         font-size: 1.1rem;
     }
+}
+
+.link-kontak{
+    text-decoration: none;
+    color: white;
+}
+
+.link-kontak:hover{
+    color: rgba(255, 255, 255, 0.712);
 }
 
 footer{
